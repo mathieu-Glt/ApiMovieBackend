@@ -13,28 +13,7 @@ I worked by using libraries such as express-validator, csrf-token and xss to mak
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" width="80" />
 
 
-## Get started !
-List mservers :
-- ms-express
-- ms-main
-- ms-nestjs
-<br/>
 
-
-First launch nats message-broker run  -> docker run -p 4222:4222 -ti nats:latest<br/>
-Then launch each service run these operations below<br/>
-For each microservices run<br/>
- -> npm install to download node_modules<br/>
-Run<br/>
-  -> docker-compose up -d for microservices ms-express and ms-main  for to get  images dockerHub phpmyadmin and mysql<br/>
-To finish start each server<br/>
-ms-express :<br/>
--> npm run dev <br/>
-ms-main :<br/> 
--> npm run dev<br/>
-
-ms-nestjs :<br/> 
--> npm run start:dev
 
 
 
